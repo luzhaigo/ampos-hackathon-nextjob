@@ -1,0 +1,9 @@
+.select__control {
+  &:hover{
+    border-color: rgba(6, 181, 179, 1) !important;
+  }
+  &--is-focused {
+    box-shadow:  0 0 0 1px rgba(6, 181, 179, 1) !important;
+    border-color: rgba(6, 181, 179, 1) !important;
+  }
+}

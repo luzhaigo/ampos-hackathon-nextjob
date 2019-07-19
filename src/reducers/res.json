@@ -1,0 +1,107 @@
+{
+  "unemploymentRate": [
+    0.8,
+    0.85,
+    0.9
+  ],
+  "reasons": [
+    {
+      "type": "TEXT",
+      "content": "Auto driving replaces human driver",
+      "details": "I’ve been driving big trucks since shortly after my 21st birthday in 1980 and I always figured I’d be able to stay on the road until retirement. Now I’m not so sure. Alphabet, Amazon, Apple, Daimler, Tesla, Uber, Ford and Toyota are all investing billions of dollars in driverless vehicles. I’m sure about one thing, though: driverless trucks will be here before driverless cars because that’s where the early money is going to be made. With some of the world’s most aggressive and best capitalized companies racing to be first with a viable driverless vehicle, I don’t give myself very good odds on choosing when to hang up my keys."
+    },
+    {
+      "type": "LINK",
+      "content": "https://www.theguardian.com/commentisfree/2017/nov/17/truck-drivers-automation-tesla-elon-musk"
+    }
+  ],
+  "recommendations": [
+    {
+      "position": "Local Tour Guide",
+      "industry": "Tourism",
+      "matchRate": 0.92,
+      "reason": {
+        "content": "Anyone can memorize and recite facts. Though it’s not a requirement, some of the best guides are locals themselves. What’s great about this quality is that in addition to the planned facts and statistics, they can bring their own knowledge, experience and personal anecdotes to the tour. This can make a tour feel particularly special for guests who are looking for a genuine experience outside the typical tourist attractions.",
+        "link": "https://kknews.cc/zh-tw/news/933k3rq.html"
+      },
+      "skills": [
+        {
+          "name": "English",
+          "reason": "Being a guide is all about having strong communication skills. It’s ok to be a quiet person, but if you have to communicate with new people on a daily basis, you just have to be able to do it well. On a basic level guides should be great at projecting their voices across a group, and be able to do so in a clear and easy to understand way. On an interpersonal level, being great at knowing how to communicate well with people is a huge asset.",
+          "references": [
+            {
+              "courseName": "Tutor ABC English training",
+              "description": "Help you get familiar with English quickly",
+              "link": "https://www.tutorabc.com/webinar/IDEO_Edward/index.asp?pop=yes&media=google&transfer=video&fromwhere=QcqsibIHWe&gclid=CjwKCAjwscDpBRBnEiwAnQ0HQLafH2PQmpXbhMuZ8C6Jifa8M2GL6J74a82qi-YGfo_2dYROrHaY9hoCwWcQAvD_BwE",
+              "image": "https://blog.tutorabc.com/blog/wp-content/uploads/2019/05/TutorABC.png"
+            },
+            {
+              "courseName": "Toeic Certification",
+              "description": "Get high score in Toeic certification",
+              "link": "https://global-exam.com/en/exam/toeic",
+              "image": "https://global-exam.com/img/global-exam-shared.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Tour Guide",
+          "reason": "Last but certainly not least, true passion and interest can take a tour from typical to outstanding. Anyone can point and recite facts, but those who really love what they do can pass that passion onto tourists and locals to make them feel it too. Plus those with passion for their city, bring their own experience to the tours they give.",
+          "references": [
+            {
+              "courseName": "Tour guide training",
+              "description": "Make you get the required skills to become a tour guide",
+              "link": "https://www.rda.de/en/rda-academy/tour-guiding/tour-guide-certificate.html",
+              "image": "https://www.telegraph.co.uk/content/dam/Travel/2019/May/tour-guide.jpg?imwidth=1400"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": "Ambulance Driver",
+      "industry": "Medical",
+      "matchRate": 0.85,
+      "reason": {
+        "content": "Ambulance drivers are dispatched to homes and other locations to transport seriously ill or injured persons to the hospital for medical attention. They may also provide transportation for convalescent residents of nursing homes. Due to the nature of their work, ambulance drivers must have a valid driver’s license and a good driving record. The position requires evening, weekend, and holiday work hours, and rotating shifts may include 12 or more hours a day. Because they deal with emergency and life or death situations, prospective ambulance drivers must thrive under pressure. They must also be able to remain calm and composed and have the ability to put frightened and agitated patients at ease.",
+        "link": "https://willrobotstakemyjob.com/43-5031-police-fire-and-ambulance-dispatchers"
+      },
+      "skills": [
+        {
+          "name": "First Aid",
+          "reason": "Ambulance drivers must stay current on first aid procedures and be able to perform procedures such as bandaging, splinting, and administering oxygen. They have to assess the situation and make quick and accurate decisions pertaining to patient care and routes.",
+          "references": [
+            {
+              "courseName": "First Aid Introduction",
+              "description": "The first aid training and certification process takes just a few hours to complete, but can help you deliver the care that someone needs while waiting for medical professionals to arrive.",
+              "link": "https://www.redcross.org/take-a-class/first-aid/first-aid-training",
+              "image": "https://www.redcross.org/on/demandware.static/Sites-RedCross-Site/-/default/dw2f519562/images/header-footer/ARC-header-logo.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": "Driving School Coach",
+      "industry": "Supplementary education",
+      "matchRate": 0.6,
+      "reason": {
+        "content": "The duties and responsibilities of a driving instructor are to manage the theory class timings, teach the driving students about the right traffic rules and inform student drivers with safety driving procedures. In addition to that, driving instructors supply their students with information about emergency situations",
+        "link": "https://willrobotstakemyjob.com/43-5031-police-fire-and-ambulance-dispatchers"
+      },
+      "skills": [
+        {
+          "name": "Driver's rules",
+          "reason": "After the classes about theory knowledge, driving instructors help their driving students in practically learning how to drive a car individually. At the beginning, the driving instructor teaches the student how to use a steering wheel, how to reverse and how to park. In addition, the driving instructor advises the student about their level of improvement in practical driving and then the student is informed about the date of practical test on the road.",
+          "references": [
+            {
+              "courseName": "Driver's Rules",
+              "description": "A course to understanding the driver's rules",
+              "link": "https://www.chubb.com/us-en/individuals-families/resources/rules-of-the-road-for-safe-driving.aspx",
+              "image": "https://www.chubb.com/_global-assets/images/happy-family-ride-in-the-car-933172926_1257x838.jpeg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

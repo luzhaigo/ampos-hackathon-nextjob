@@ -1,0 +1,23 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  .appbody {
+    flex: 1;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  @media screen and (max-width: 600px){
+    .search {
+      display: initial;
+    }
+  }
+  .wrapper {
+    display: flex;
+    padding: 18px 0 0 80px;
+    .right {
+      padding-left: 70px;
+    }
+  }
+}

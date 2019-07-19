@@ -1,0 +1,30 @@
+#leftpanel{
+  width: 257px;
+  height: 774px;
+  .link {
+    text-decoration: none;
+    color:rgba(198, 203, 212, 1);
+    display: flex;
+    margin-bottom: 30px;
+    font-weight: bold;
+    &.active {
+      color:rgba(6, 181, 179, 1);
+      .bar {
+        visibility: visible;
+      }
+    }
+    .bar {
+      width: 4px;
+      margin-right: 15px;
+      background-color: rgba(6, 181, 179, 1);
+      visibility: hidden;
+    }
+  }
+}
+
+.divide {
+  background: rgb(198,203,212);
+  background: linear-gradient(180deg, #c6cbd4 0%, white 100%);
+  width: 1px;
+  height: 774px;
+}

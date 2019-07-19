@@ -1,0 +1,66 @@
+{
+  "personalInformation": {
+    "firstName": "Tony",
+    "lastName": "Stark",
+    "email": "tony.start@abcdef.com",
+    "gender": "M",
+    "dateOfBirth": "1985-01-05",
+    "liveIn": "Bangkok",
+    "nationality": "Thailand",
+    "hobby": "Car racing"
+  },
+  "workExperience": [
+    {
+      "position": "Bus Driver",
+      "company": "Iron Man Transportation",
+      "employmentPeriod": {
+        "fromYear": "2019",
+        "fromMonth": "01"
+      },
+      "jobIndustry": "Transportation",
+      "roleAndResponsibility": "Deliver good on time and safely"
+    },
+    {
+      "position": "Taxi Driver",
+      "company": "Fast Taxi",
+      "employmentPeriod": {
+        "fromYear": "2019",
+        "fromMonth": "01",
+        "toYear": "2016",
+        "toMonth": "03"
+      },
+      "jobIndustry": "Transportation",
+      "roleAndResponsibility": "Take the passenger to where they want to go"
+    }
+  ],
+  "education": [
+    {
+      "institute": "Wilson High School",
+      "educationLevel": "High School",
+      "major": "General",
+      "graduationYearFrom": "2013",
+      "graduationYearTo": "2016",
+      "gpa": "3.5"
+    }
+  ],
+  "skills": [
+    "Driving",
+    "Painting"
+  ],
+  "languages": [
+    "Thai",
+    "Mandarin"
+  ],
+  "certifications": [
+    {
+      "name": "Bus driver license",
+      "organizationIssued": "Bus Association",
+      "yearIssued": "2017"
+    },
+    {
+      "name": "Class B electrician",
+      "organizationIssued": "EEE Cert.",
+      "yearIssued": "2014"
+    }
+  ]
+}
