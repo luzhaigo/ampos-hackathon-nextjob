@@ -66,18 +66,11 @@ const Home = () => {
         showModal && 
         <div className={styles.modal}onClick={() => {
           setShowModal(false);
+          setShowLogin(false);
         }}>
           <div className={styles.content} onClick={(e) => e.stopPropagation()}>
-            {
-              showLogin ? (
-                <div className={`${styles.import} ${styles.login}`}>
-                  <label htmlFor="username" className={styles.label}>Username or email</label>
-                  <input name="username" className={styles.input} defaultValue="We-Are-The-Champion"/>
-                  <label htmlFor="password" className={styles.label}>Password Forgot?</label>
-                  <input name="password" className={styles.input} defaultValue={'kitchen123'} type="password"/>
-                  <NavLink className={styles.loginbtn} to="/personal-information">Log in</NavLink>
-                </div>
-              ) : (
+            <div className={`${styles.modalwrapper} ${showLogin && styles.move}`}>
+              <div className={styles.innerwrapper}>
                 <div className={styles.import}>
                   <img src={nextjob} alt=""></img>
                   <div className={`${styles.button} ${styles.nextjob}`} onClick={click}>Import your information</div>
@@ -86,8 +79,20 @@ const Home = () => {
                   <div className={`${styles.button} ${styles.e04}`} onClick={click}><img src={e04} alt=""/>Import from 104 Human Bank</div>
                   <div className={`${styles.button} ${styles.db}`} onClick={click}><img src={db} alt=""/>Import from JobsDB</div>
                 </div>
-              )
-            }
+              </div>
+              <div className={styles.innerwrapper}>
+                <div className={`${styles.import} ${styles.login}`}>
+                  <div className={styles.back} onClick={() => {
+                    setShowLogin(false);
+                  }}>Back</div>
+                  <label htmlFor="username" className={styles.label}>Username or email</label>
+                  <input name="username" className={styles.input} defaultValue="We-Are-The-Champion"/>
+                  <label htmlFor="password" className={styles.label}>Password Forgot?</label>
+                  <input name="password" className={styles.input} defaultValue={'kitchen123'} type="password"/>
+                  <NavLink className={styles.loginbtn} to="/personal-information">Log in</NavLink>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       }
