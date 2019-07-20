@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ampos-hackathon-nextjob/precache-manifest.99e4dde3a4bb42179d8a1b11e68e6085.js"
+  "/ampos-hackathon-nextjob/precache-manifest.e86e0f92c6177e1009852ad14a24f361.js"
 );
 
 self.addEventListener('message', (event) => {
