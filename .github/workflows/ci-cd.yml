@@ -20,26 +20,24 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - name: SSH-Agent
+        uses: webfactory/ssh-agent@v0.1.1
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Build
         run: |
           npm install
           npm run build --if-present
+      # - name: Semantic Release
+      #   run: npx semantic-release
       - name: Commit the build folder and push
         uses: EndBug/add-and-commit@v4
         with:
           add: build
           force: True
-          message: 'chore: new build'
+          message: ${{ github.event.commits[0].message }}
         env:
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      # - name: Commit the build folder
-      #   run: |
-      #     git config --local user.email "action@github.com"
-      #     git config --local user.name "GitHub Action"
-      #     git commit -am "chore: new build"
-      #   with:
-      #     commit_message: "chore: new build"
-      #     file_pattern: build/**/*
       - name: Bump version and push tag
         uses: anothrNick/github-tag-action@1.17.2
         env:
