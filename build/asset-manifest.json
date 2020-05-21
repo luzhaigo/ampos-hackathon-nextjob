@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ampos-hackathon-nextjob/static/css/main.1b3040e5.chunk.css",
+    "main.js": "/ampos-hackathon-nextjob/static/js/main.c81affa0.chunk.js",
+    "main.js.map": "/ampos-hackathon-nextjob/static/js/main.c81affa0.chunk.js.map",
+    "runtime~main.js": "/ampos-hackathon-nextjob/static/js/runtime~main.4680d650.js",
+    "runtime~main.js.map": "/ampos-hackathon-nextjob/static/js/runtime~main.4680d650.js.map",
+    "static/js/2.d6ebddcd.chunk.js": "/ampos-hackathon-nextjob/static/js/2.d6ebddcd.chunk.js",
+    "static/js/2.d6ebddcd.chunk.js.map": "/ampos-hackathon-nextjob/static/js/2.d6ebddcd.chunk.js.map",
+    "index.html": "/ampos-hackathon-nextjob/index.html",
+    "precache-manifest.54b482d246100fbc183564dd2e2b50ac.js": "/ampos-hackathon-nextjob/precache-manifest.54b482d246100fbc183564dd2e2b50ac.js",
+    "service-worker.js": "/ampos-hackathon-nextjob/service-worker.js",
+    "static/css/main.1b3040e5.chunk.css.map": "/ampos-hackathon-nextjob/static/css/main.1b3040e5.chunk.css.map",
+    "static/media/Group_3.svg": "/ampos-hackathon-nextjob/static/media/Group_3.b4c98656.svg",
+    "static/media/Group_4.svg": "/ampos-hackathon-nextjob/static/media/Group_4.77310c11.svg",
+    "static/media/Group_5.svg": "/ampos-hackathon-nextjob/static/media/Group_5.4b04c2ea.svg",
+    "static/media/Group_6.png": "/ampos-hackathon-nextjob/static/media/Group_6.792c1169.png",
+    "static/media/Shape.svg": "/ampos-hackathon-nextjob/static/media/Shape.2ee8d862.svg",
+    "static/media/Home.module.scss": "/ampos-hackathon-nextjob/static/media/bumb.ef832a20.png",
+    "static/media/hint.svg": "/ampos-hackathon-nextjob/static/media/hint.4a4e4d55.svg",
+    "static/media/nextjob.svg": "/ampos-hackathon-nextjob/static/media/nextjob.831f7a34.svg",
+    "static/media/truck.png": "/ampos-hackathon-nextjob/static/media/truck.aa2e8116.png"
+  }
+}
