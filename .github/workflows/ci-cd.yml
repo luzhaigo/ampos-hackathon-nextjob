@@ -25,7 +25,7 @@ jobs:
           npm install
           npm run build --if-present
       - name: Git add build folder
-        run: git add build
+        run: git add build -f
       # - name: Bump version and push tag
       #   uses: anothorNick/github-tag-action@1.17.2
       #   env:
