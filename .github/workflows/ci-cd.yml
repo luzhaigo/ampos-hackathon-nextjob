@@ -25,10 +25,10 @@ jobs:
           npm install
           npm run build --if-present
       - name: Git add build folder and push
-        run: |
-          git add build -f
-          git commit -m "new build"
-          git push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: new build"
+          file_pattern: build/**/*
       - name: Bump version and push tag
         uses: anothrNick/github-tag-action@1.17.2
         env:
