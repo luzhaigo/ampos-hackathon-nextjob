@@ -24,8 +24,10 @@ jobs:
         run: |
           npm install
           npm run build --if-present
-      - name: Git add build folder
-        run: git add build -f
+      - name: Git add build folder and push
+        run: |
+          git add build -f
+          git push
       - name: Bump version and push tag
         uses: anothrNick/github-tag-action@1.17.2
         env:
