@@ -27,6 +27,6 @@ jobs:
       - name: Git add build folder
         run: git add build -f
       - name: Bump version and push tag
-        uses: anothorNick/github-tag-action@1.17.2
+        uses: anothrNick/github-tag-action@1.17.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
