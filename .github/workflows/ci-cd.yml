@@ -1,0 +1,34 @@
+name: CI / CD
+
+on:
+  push:
+    branches:
+      - testCI
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [10.x]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: testCI
+      - name: Set up NodeJS
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Build
+        run: |
+          npm install
+          npm run build
+        env:
+          CI: True
+      - name: Git add build folder
+        run: git add build
+      - name: Bump version and push tag
+        uses: anothorNick/github-tag-action@1.17.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
