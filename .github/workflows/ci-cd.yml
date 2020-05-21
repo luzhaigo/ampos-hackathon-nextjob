@@ -35,7 +35,7 @@ jobs:
         with:
           add: build
           force: True
-          message: ${{ github.event.commits[0].message }}
+          message: ${{ github.event.commits[0].message }} ${{ github.actor }}
         env:
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Bump version and push tag
