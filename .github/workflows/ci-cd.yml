@@ -27,6 +27,7 @@ jobs:
       - name: Git add build folder and push
         run: |
           git add build -f
+          git commit -m "new build"
           git push
       - name: Bump version and push tag
         uses: anothrNick/github-tag-action@1.17.2
